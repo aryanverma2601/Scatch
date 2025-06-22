@@ -7,7 +7,7 @@ const ownerSchema = mongoose.Schema({
     minLength: 3,
   },
   email: String,
-  password: Stirng,
+  password: String,
   isadmin: Boolean,
   picture: String,
   gstin: String,
